@@ -1,0 +1,1 @@
+this folder contains the 0x02.c functions, nested loops task. for alx 
