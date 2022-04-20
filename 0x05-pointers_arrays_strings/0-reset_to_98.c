@@ -1,6 +1,6 @@
 
 /**
- *reset_to_98: resets inputs to 98
+ *reset_to_98(int *n): resets input int *n to 98
  *Retune : value is void
  */
 
