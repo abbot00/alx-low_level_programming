@@ -1,4 +1,4 @@
-
+#include "main.h"
 /**
  *swap_int -  swaps value of a and b;
  *@a - pointer
