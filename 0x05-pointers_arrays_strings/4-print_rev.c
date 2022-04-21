@@ -12,9 +12,10 @@ while (s[i])
 {
 i++;
 }
-for (int j = i; j == 0; j--)
+while (i >= 0)
 {
 _putchar(s[i]);
+i--;
 }
 _putchar('\n');
 }
