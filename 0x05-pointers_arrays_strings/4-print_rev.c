@@ -12,9 +12,8 @@ while (s[i])
 {
 ++i;
 }
-while (i >= 0)
+while (i--)
 {
-i--;
 _putchar(s[i]);
 
 }
