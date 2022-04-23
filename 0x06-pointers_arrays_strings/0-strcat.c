@@ -1,5 +1,5 @@
 /**
- *_strcat - cats src to destination 
+ *_strcat - cats src to destination
  * @dest: pointer to destinatation
  * @src: pointer to sorce
  * Return:  char of the dest
