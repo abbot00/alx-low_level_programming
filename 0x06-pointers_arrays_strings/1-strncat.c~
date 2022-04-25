@@ -1,0 +1,36 @@
+
+
+/**int _strlen(char *c);
+ char *_strncat(char *dest, char *src, int n)
+{
+  int destlen = _strlen(dest);
+  int i = 0;
+  for (i = 0; i < n && src[i] != '\0'; i++)
+    dest[destlen + i] = src[i];
+  dest[destlen + 1] = '\0';
+  return (dest);
+}
+int _strlen(char *c)
+{
+  int len = 0;
+  while (c[len] != '\0')
+    len++;
+  return (len);
+  }*/
+char *_strncat(char *dest, char *src, int n)
+{
+  int i = 0;
+  int r = 0;
+  int tam = 0;
+  for (; dest[tam];)
+    {
+      tam++;
+    }
+  while (r < n && src[r])
+    {
+      dest[tam + i] = src[r];
+      i++;
+      r++;
+    }
+  return (dest);
+}
