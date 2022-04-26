@@ -1,0 +1,19 @@
+#include <stddef.h>
+/**
+ * _strchr - locates ar character in a string
+ * @s: pointer to string]
+ * @c: character
+ * Return: pointer to first c
+ */
+char *_strchr(char *s, char c)
+{
+int i;
+int j = 0;
+for (i = 0; i < s[j]; i++)
+if (*s == c)
+{
+return (s);
+break;
+}
+return (!c ? s : NULL);
+}
