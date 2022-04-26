@@ -1,3 +1,4 @@
+#include <stddef.h>
 /**
  * _strpbrk - searches for a set of bytes
  * @s: pointer to the string
