@@ -1,1 +1,1 @@
-char *_strpbrk(char *s, char *accept);
+0000000000000000 T _strpbrk

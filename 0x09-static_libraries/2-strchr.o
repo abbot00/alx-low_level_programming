@@ -1,1 +1,1 @@
-char *_strchr(char *s, char c);
+0000000000000000 T _strchr

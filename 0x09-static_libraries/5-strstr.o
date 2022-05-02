@@ -1,1 +1,1 @@
-char *_strstr(char *haystack, char *needle);
+0000000000000000 T _strstr

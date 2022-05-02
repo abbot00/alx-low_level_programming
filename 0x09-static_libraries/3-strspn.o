@@ -1,1 +1,1 @@
-unsigned int _strspn(char *s, char *accept);
+0000000000000000 T _strspn
