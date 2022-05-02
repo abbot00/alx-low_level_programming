@@ -1,5 +1,3 @@
-#include "main.h"
-
 /**
  * _isalpha - Check Alx
  * @c: An input character
