@@ -32,6 +32,6 @@ s[k] = s2[k - i];
 k++;
 }
 s[k] = '\0';
-free(s);
 return (s);
+free(s);
 }
