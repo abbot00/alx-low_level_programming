@@ -9,20 +9,19 @@
  */
 int _wcount(char *sw)
 {
-  int l, wc;
-
-  l = 0, wc = 0;
-  if (*(sw + l) == ' ')
-    l++;
-  while (*(sw + l))
-    {
-      if (*(sw + l) == ' ' && *(sw + l - 1) != ' ')
-	wc++;
-      if (*(sw + l) != ' '  && *(sw + l + 1) == 0)
-	wc++;
-      l++;
-    }
-  return (wc);
+int l, wc;
+l = 0, wc = 0;
+if (*(sw + l) == ' ')
+l++;
+while (*(sw + l))
+{
+if (*(sw + l) == ' ' && *(sw + l - 1) != ' ')
+wc++;
+if (*(sw + l) != ' '  && *(sw + l + 1) == 0)
+wc++;
+l++;
+}
+return (wc);
 }
 /**
  * _trspace - Moves adress to remove trailig whitespaces
