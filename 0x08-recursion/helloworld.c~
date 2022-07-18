@@ -1,0 +1,12 @@
+/**
+ * main - this program print Hello world
+ * Return: returns zero if ran correctly.
+ */
+
+#include <stdio.h>
+
+int main (void)
+{
+  printf("Hello 1  World \n");
+  
+}
