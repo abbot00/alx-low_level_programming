@@ -1,7 +1,7 @@
-
+# -*- MakeFile -*-
 CC = gcc
-SRC =  main.c  school.c
-0BJ =  $(patsubst %.c,%.o,$(SRC))
+SRC = main.c school.c
+0BJ = $(patsubst %.c,%.o,$(SRC))
 NAME = school
 
 %.o: %.c
