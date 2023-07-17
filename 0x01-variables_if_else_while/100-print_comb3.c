@@ -1,3 +1,4 @@
+#include <stdio.h>
 /**
  * main - main prints all possible diferent combinations of two digits
  * numbers must be separeted by ',' followed by a space.
