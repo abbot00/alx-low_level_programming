@@ -6,43 +6,29 @@
  * different combinations of two digits
  * Return: 0
  */
+
 int main(void)
 {
-int c = 0;
-int f_d;
-int l_d;
-
-int c2;
-int f_d2;
-int l_d2;
-
-while (c <= 98)
+int n1, n2;
+n1 = 0;
+while (n1 <= 98)
 {
-f_d = (c / 10 + '0');
-l_d = (c % 10 + '0');
-c2 = 0;
-while (c2 <= 99)
+n2 = n1 + 1;
+while (n2 <= 99)
 {
-f_d2 = (c2 / 10 + '0');
-l_d2 = (c2 % 10 + '0');
-
-if (c < c2)
-{
-putchar(f_d);
-putchar(l_d);
+putchar(n1 / 10 + '0');
+putchar(n1 % 10 + '0');
 putchar(' ');
-putchar(f_d2);
-putchar(l_d2);
-
-if (c != 98)
+putchar(n2 / 10 + '0');
+putchar(n2 % 10 + '0');
+if (n1 != 98 || n2 != 99)
 {
 putchar(',');
 putchar(' ');
 }
+n2++;
 }
-c2++;
-}
-c++;
+n1++;
 }
 putchar('\n');
 return (0);
