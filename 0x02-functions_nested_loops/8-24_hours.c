@@ -6,26 +6,24 @@
  * Return: Always 0.
  */
 
+
 void jack_bauer(void)
-
 {
-int a;
-int b;
-
-for (a = 0; a <= 23; a++)
+int h = 0;
+int m;
+while(h <= 24)
 {
-for (b = 0; b <= 59; b++)
+m = 0;
+while (m <= 60)
 {
-_putchar (a / 10 + '0');
-_putchar (a % 10 + '0');
-_putchar (':');
-_putchar (b / 10 + '0');
-_putchar (b % 10 + '0');
-_putchar ('\n');
-
+_putchar((h / 10) + '0');
+_putchar((h % 10) + '0');
+_putchar(':');
+_putchar((m / 10) + '0');
+_putchar((m % 10) + '0');
+_putchar('\n');
+m++;
 }
-
-
+h++;
 }
-
 }
