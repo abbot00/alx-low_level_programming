@@ -5,7 +5,7 @@
  * Return: void.
  */
 
-int main(void)
+/**int main(void)
 {
 
 int i = 1;
@@ -40,3 +40,41 @@ putchar('\n');
 return (0);
 
 }
+*/
+
+void times_table(void)
+{
+int n = 0;
+int multi;
+int prod;
+while (n <= 9)
+{
+multi = 0;
+while (multi <= 9)
+{
+
+prod = (multi * n);
+if (prod > 9)
+{
+_putchar(prod / 10 + '0');
+_putchar(prod % 10 + '0');
+}
+else
+{
+_putchar(prod + '0');
+}
+if (multi < 9)
+{
+_putchar(',');
+_putchar(' ');
+}
+else
+{
+_putchar('\n');
+}
+multi++;
+}
+n++;
+}
+}
+
