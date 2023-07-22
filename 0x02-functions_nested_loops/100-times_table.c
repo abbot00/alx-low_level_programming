@@ -6,13 +6,14 @@
 *Return: void
 */
 void print_times_table(int n)
-int i, j;
 {
-    if (n > 15 || n < 0) {
-        return;
-    }
-    i = 0;
-    while (i <= n) {
+int i, j;
+if (n > 15 || n < 0) 
+{
+ return;
+}
+i = 0;
+while (i <= n) {
         putchar('0');
         putchar(',');
         putchar(' ');
