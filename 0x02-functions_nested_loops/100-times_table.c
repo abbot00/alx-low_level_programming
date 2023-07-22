@@ -2,7 +2,7 @@
 #include <stdio.h>
 /**
 * print_times_table - prints times table
-*n - number of times to be produced.
+*n - n is a number of times to be produced.
 *Return: void
 */
 void print_times_table(int n)
@@ -13,22 +13,22 @@ if (n > 15 || n < 0)
 return;
 }
 i = 0;
-while (i <= n) 
+while (i <= n)
 {
 _putchar('0');
 _putchar(',');
 _putchar(' ');
- j = 1;
+j = 1;
 while (j <= n)
 {
-int num = i * j;
-if (num < 10) 
+int num = i *j;
+if (num < 10)
 {
 _putchar(' ');
 _putchar(' ');
 _putchar(num + '0');
 }
-else if (num < 100) 
+else if (num < 100)
 {
 _putchar(' ');
 _putchar(num / 10 + '0');
