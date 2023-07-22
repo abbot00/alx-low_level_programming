@@ -2,7 +2,7 @@
 
 /**
 * print_times_table - prints times table
-*n: number of times to be produced.
+*n - number of times to be produced.
 *Return: void
 */
 
@@ -19,7 +19,7 @@ while (i <= n)
 multi = 0;
 while (multi <= n)
 {
-prod = i * multi;
+prod = i *multi;
 if (prod == 0)
 {
 _putchar('0');
@@ -27,7 +27,7 @@ _putchar('0');
 else
 {
 rev_prod = 0;
-while( prod != 0)
+while (prod != 0)
 {
 rev_prod = rev_prod * 10 + prod % 10;
 prod = prod / 10;
