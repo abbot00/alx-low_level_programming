@@ -8,85 +8,46 @@
 void print_times_table(int n)
 {
 int i, j;
-if (n > 15 || n < 0) 
-{
- return;
-}
-i = 0;
-while (i <= n) {
-        putchar('0');
-        putchar(',');
-        putchar(' ');
-        j = 1;
-        while (j <= n) {
-            int num = i * j;
-            if (num < 10) {
-                putchar(' ');
-                putchar(' ');
-                putchar(num + '0');
-            } else if (num < 100) {
-                putchar(' ');
-                putchar(num / 10 + '0');
-                putchar(num % 10 + '0');
-            } else {
-                putchar(num / 100 + '0');
-                putchar((num / 10) % 10 + '0');
-                putchar(num % 10 + '0');
-            }
-            if (j != n) {
-                putchar(',');
-                putchar(' ');
-            }
-            j++;
-        }
-        putchar('\n');
-        i++;
-    }
-}
-
-
-
-/*void print_times_table(int n)
-{
-int i, rev_prod, multi, prod;
 if (n > 15 || n < 0)
 {
 return;
 }
 i = 0;
-while (i <= n)
-{
-multi = 0;
-while (multi <= n)
-{
-prod = i *multi;
-if (prod == 0)
+while (i <= n) 
 {
 _putchar('0');
+_putchar(',');
+_putchar(' ');
+ j = 1;
+while (j <= n)
+{
+int num = i * j;
+if (num < 10) 
+{
+_putchar(' ');
+_putchar(' ');
+_putchar(num + '0');
+}
+else if (num < 100) 
+{
+_putchar(' ');
+_putchar(num / 10 + '0');
+_putchar(num % 10 + '0');
 }
 else
 {
-rev_prod = 0;
-while (prod != 0)
-{
-rev_prod = rev_prod * 10 + prod % 10;
-prod = prod / 10;
+_putchar(num / 100 + '0');
+_putchar((num / 10) % 10 + '0');
+_putchar(num % 10 + '0');
 }
-while (rev_prod != 0)
-{
-_putchar(rev_prod % 10 + '0');
-rev_prod /= 10;
-}
-}
-if (multi != n)
+if (j != n)
 {
 _putchar(',');
 _putchar(' ');
 }
-multi++;
+j++;
 }
 _putchar('\n');
 i++;
 }
-} 
-*/
+}
