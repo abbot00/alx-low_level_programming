@@ -5,15 +5,15 @@
  * Return:0
  */
 
+#include "main.h"
+
 void print_numbers(void)
 {
-char n = 0;
-while (n <= 9)
+int num = 0;
+while (num < 10)
 {
-_putchar('0' + n);
-n++;
-
+_putchar(num + '0');
+num++;
 }
 _putchar('\n');
-
 }
