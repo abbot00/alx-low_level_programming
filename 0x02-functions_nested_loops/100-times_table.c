@@ -1,20 +1,22 @@
 #include "main.h"
-
+#include <stdio.h>
 /**
 * print_times_table - prints times table
 *n - number of times to be produced.
 *Return: void
 */
-void print_times_table(int n) {
+void print_times_table(int n)
+int i, j;
+{
     if (n > 15 || n < 0) {
         return;
     }
-    int i = 0;
+    i = 0;
     while (i <= n) {
         putchar('0');
         putchar(',');
         putchar(' ');
-        int j = 1;
+        j = 1;
         while (j <= n) {
             int num = i * j;
             if (num < 10) {
