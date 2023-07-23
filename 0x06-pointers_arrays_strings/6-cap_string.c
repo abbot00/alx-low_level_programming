@@ -1,6 +1,6 @@
 /**
  * cap_string - conerts to capital letters
- * @s: pointer to string
+ * @c: char to be checked.
  * Return: returns a char
  */
 
