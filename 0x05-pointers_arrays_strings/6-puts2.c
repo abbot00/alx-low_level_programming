@@ -4,16 +4,16 @@
  * @str: pointer to string.
  * Return - Void
  */
+
+#include "main.h"
+
+
 void puts2(char *str)
 {
-int i = 0;
-while (str[i] != '\0')
-{
-if (i % 2 == 0)
+int i;
+for (i = 0; str[i] != '\0'; i += 2)
 {
 _putchar(str[i]);
-}
-i++;
 }
 _putchar('\n');
 }
