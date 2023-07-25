@@ -1,5 +1,4 @@
 /**
- *
  * _strspn - gets the legnt of a substring
  * @s: pointer to string
  * @accept: pointer
