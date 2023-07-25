@@ -3,7 +3,7 @@
  * _strspn - gets the legnt of a substring
  * @s: pointer to string
  * @accept: pointer
- * @Return: unsigned int
+ * Return: unsigned int
  */
 unsigned int _strspn(char *s, char *accept)
 {
