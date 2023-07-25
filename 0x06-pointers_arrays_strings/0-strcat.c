@@ -5,21 +5,6 @@
  * Return:  char of the dest
  */
 
-/**char *_strcat(char *dest, char *src)
-{
-char *s = dest;
-while (*dest)
-{
-dest++;
-}
-while (*src)
-{
-*dest++ = *src++;
-}
-*dest = '\0';
-return (s);
-}
-*/
 char *_strcat(char *dest, char *src)
 {
 int i, destlen = 0;
