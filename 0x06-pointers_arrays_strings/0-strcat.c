@@ -12,9 +12,9 @@ while (dest[destlen]  != '\0')
 {
 destlen++;
 }
-for(i = 0; src[i] != '\0'; i++)
+for (i = 0; src[i] != '\0'; i++)
 {
-dest[destlen +i] = src[i];
+dest[destlen + i] = src[i];
 }
 dest[destlen + i] = '\0';
 return (dest);
