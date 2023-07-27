@@ -1,8 +1,8 @@
 #include "main.h"
 /**
-  * wildcmp - a funcition that compares two strings 
+  * wildcmp - a funcition that compares two strings
   * @s1: first string to be compered.
-  * @s2: second string to be compared. 
+  * @s2: second string to be compared.
   * Return: 1 if they are equal, else 0;
   **/
 
@@ -17,8 +17,8 @@ if (*s2 == '*')
 return (wildcmp(s1, s2 + 1) || (*s1 != '\0' && wildcmp(s1 + 1, s2)));
 }
 if (*s1 != *s2)
-{  
+{
 return (0);
-} 
-return(wildcmp(s1 +1, s2 + 1)); 
+}
+return (wildcmp(s1 + 1, s2 + 1)); 
 }
