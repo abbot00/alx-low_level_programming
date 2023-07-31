@@ -1,7 +1,4 @@
 #include "3-calc.h"
-#include <stdlib.h>
-#include <stdio.h>
-
 /**
  * op_add - a function that returns the sum of a and b.
  * @a: an input integer
@@ -42,11 +39,6 @@ return (a * b);
  * Return: The result to divide a / b.
  */
 int op_div(int a, int b)
-{
-if (b == 0)
-{
-printf("Error\n");
-exit(100);
 }
 return (a / b);
 }
@@ -58,11 +50,6 @@ return (a / b);
  * Return: The result to module a % b.
  */
 int op_mod(int a, int b)
-{
-if (b == 0)
-{
-printf("Error\n");
-exit(100);
 }
 return (a % b);
 }
