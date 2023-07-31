@@ -39,7 +39,7 @@ return (a * b);
  * Return: The result to divide a / b.
  */
 int op_div(int a, int b)
-}
+{
 return (a / b);
 }
 
@@ -50,6 +50,6 @@ return (a / b);
  * Return: The result to module a % b.
  */
 int op_mod(int a, int b)
-}
+{
 return (a % b);
 }
