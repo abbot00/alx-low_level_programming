@@ -13,6 +13,7 @@ int main(int argc, char *argv[])
 int i, num_bytes;
 char *ptr;
 if (argc != 2)
+{
 printf("Error\n");
 exit(1);
 }
